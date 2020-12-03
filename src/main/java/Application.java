@@ -27,6 +27,7 @@ public class Application {
 				registry.addMapping("/user/*").allowedOrigins("http://localhost:8000");
 				registry.addMapping("/client/*").allowedOrigins("http://localhost:8001");
 				registry.addMapping("/service/*").allowedOrigins("http://localhost:8001");
+				registry.addMapping("/myService/*").allowedOrigins("http://localhost:8001");
 			}
 		};
 	}
