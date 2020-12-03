@@ -1,7 +1,7 @@
 package entity;
 
 import javax.persistence.*;
-import java.sql.Blob;
+//import java.sql.Blob;
 import java.util.Date;
 
 @Entity
